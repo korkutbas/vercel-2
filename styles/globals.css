@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  background-color: #f7f6f3;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.logo {
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+.language-select {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #222;
+}
+
+.coming-soon {
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  color: #444;
+}
+
+.branches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.branches a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+}
